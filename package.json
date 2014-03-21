@@ -3,7 +3,7 @@
   "version": "0.2.1",
   "description": "Only pass through changed files",
   "license": "MIT",
-  "repository": "sindresorhus/gulp-changed",
+  "repository": "ground5hark/gulp-changed-old",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
@@ -20,7 +20,7 @@
     }
   ],
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.8.0"
   },
   "scripts": {
     "test": "mocha"
@@ -45,7 +45,7 @@
     "passthrough"
   ],
   "dependencies": {
-    "gulp-util": "~2.2.0",
+    "gulp-util": "~2.1.4",
     "through2": "~0.4.0"
   },
   "devDependencies": {

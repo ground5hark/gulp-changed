@@ -1,4 +1,6 @@
-# [gulp](http://gulpjs.com)-changed [![Build Status](https://secure.travis-ci.org/sindresorhus/gulp-changed.png?branch=master)](http://travis-ci.org/sindresorhus/gulp-changed)
+# [gulp](http://gulpjs.com)-changed-old
+
+Forked for compatibility with node 0.8.0, based off of the original [gulp-changed](https://github.com/sindresorhus/gulp-changed)
 
 > Only pass through changed files
 
@@ -7,10 +9,10 @@ No more wasting precious time on processing unchanged files.
 
 ## Install
 
-Install with [npm](https://npmjs.org/package/gulp-changed)
+Install with [npm](https://npmjs.org/package/gulp-changed-old)
 
 ```
-npm install --save-dev gulp-changed
+npm install --save-dev gulp-changed-old
 ```
 
 
@@ -18,7 +20,7 @@ npm install --save-dev gulp-changed
 
 ```js
 var gulp = require('gulp');
-var changed = require('gulp-changed');
+var changed = require('gulp-changed-old');
 var ngmin = require('gulp-ngmin'); // just as an example
 
 var SRC = 'src/*.js';

@@ -8,11 +8,11 @@ module.exports = function (dest, opts) {
 	opts = opts || {};
 
 	if (!dest) {
-		throw new gutil.PluginError('gulp-changed', '`dest` required');
+		throw new gutil.PluginError('gulp-changed-old', '`dest` required');
 	}
 
 	return through.obj(function (file, enc, cb) {
-		if (file.isNull()) {
+		if (file.contents === null) {
 			this.push(file);
 			return cb();
 		}
@@ -31,7 +31,7 @@ module.exports = function (dest, opts) {
 					return cb();
 				}
 
-				this.emit('error', new gutil.PluginError('gulp-changed', err));
+				this.emit('error', new gutil.PluginError('gulp-changed-old', err));
 				this.push(file);
 				return cb();
 			}
