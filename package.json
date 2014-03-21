@@ -1,6 +1,6 @@
 {
-  "name": "gulp-changed",
-  "version": "0.2.1",
+  "name": "gulp-changed-old",
+  "version": "0.2.2",
   "description": "Only pass through changed files",
   "license": "MIT",
   "repository": "ground5hark/gulp-changed-old",
